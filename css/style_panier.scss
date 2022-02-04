@@ -1,0 +1,49 @@
+main {
+    width: 100vw;
+    height: 100vh;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    #nav-progress {
+        display: flex;
+        width: 80%;
+        height: 9vh;
+        border-bottom: solid 2px white;
+        justify-content: space-around;
+        .container-process {
+            height: 15vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            p {     
+                color: white;
+            }
+            div {
+                width: 2.7vw;
+                height: 5vh;
+                border-radius: 60%;
+                background-color: white;
+            }
+        }
+    }
+    #panier {
+        width: 60%;
+        height: 70vh;
+        display: flex;
+        border: solid 2px white;
+        border-radius: 10px;
+        background-color: cornsilk;
+        justify-content: center;
+        .article-panier {
+            width: 50%;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            color: black;
+            background-color: brown;
+        }
+    }
+}

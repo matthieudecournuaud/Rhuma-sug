@@ -1,0 +1,267 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "roboto";
+  src: url(../font/Roboto/Roboto-Regular.ttf);
+}
+@font-face {
+  font-family: "trirong";
+  src: url(../font/Trirong/Trirong-Regular.ttf);
+}
+@font-face {
+  font-family: "unlock";
+  src: url(../font/Unlock/Unlock-Regular.ttf);
+}
+@font-face {
+  font-family: "yujimai";
+  src: url(../font/Yuji_Mai/YujiMai-Regular.ttf);
+}
+@font-face {
+  font-family: "Mochiy_Pop_P_One";
+  src: url(../font/Mochiy_Pop_P_One/MochiyPopPOne-Regular.ttf);
+}
+h2 {
+  font-family: "roboto";
+  font-size: 3rem;
+  color: #e55e2a;
+  letter-spacing: 0.4rem;
+}
+
+h1 {
+  font-family: "trirong";
+  font-size: 4rem;
+  color: white;
+  font-weight: lighter;
+}
+
+h3 {
+  font-family: "trirong";
+  font-size: 2.5rem;
+  color: #88979a;
+  line-height: 6rem;
+}
+
+label {
+  color: white;
+}
+
+.login-titre {
+  padding-top: 8vh;
+  width: 80vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 10vw;
+}
+
+body {
+  background-color: #1b1a1a;
+  height: 100vh;
+  width: 100vh;
+}
+body nav {
+  display: flex;
+  justify-content: space-around;
+  width: 100vw;
+  height: 15vh;
+  align-items: center;
+}
+body nav #logo {
+  align-items: center;
+}
+body nav #logo img {
+  height: calc(8500vh/1024);
+}
+body nav ul {
+  height: 10vh;
+  width: 60vw;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+body nav ul li {
+  list-style: none;
+}
+body nav ul li a {
+  text-decoration: none;
+  color: #d38a00;
+  font-family: "roboto";
+  font-size: 1.5rem;
+}
+body nav #logo-id {
+  display: flex;
+  flex-direction: column;
+  width: 6vw;
+  justify-content: center;
+  text-align: center;
+}
+body nav #logo-id a {
+  text-decoration: none;
+  color: white;
+}
+body .bg {
+  width: 90%;
+  height: 140vh;
+  background-color: #292727;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+body .titre-produit-rhum {
+  display: flex;
+  align-items: baseline;
+  width: 80vw;
+  padding-top: 8vh;
+}
+body .titre-produit-sucre {
+  display: flex;
+  align-items: baseline;
+  width: 80vw;
+  padding-top: 8vh;
+}
+body .bloc1-produit-rhum {
+  width: 80vw;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  margin-top: 10vh;
+}
+body .bloc1-produit-rhum .description-rhum {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  font-family: "roboto";
+  font-size: 1rem;
+  line-height: 4vh;
+  gap: 3vh;
+}
+body .bloc1-produit-rhum .description-rhum .tarif {
+  font-family: "roboto";
+  font-size: 2rem;
+  height: 8vh;
+  display: flex;
+  justify-content: space-around;
+}
+body .bloc1-produit-rhum .description-rhum .tarif .ajout-panier {
+  width: 15vw;
+  background-color: #e55e2a;
+  color: white;
+  border: none;
+  height: 100%;
+  border-radius: 3px;
+  box-shadow: 1px 10px 6px #1b1b1b;
+  transform: translateY(0);
+  transition: all 0.2s ease;
+}
+body .bloc1-produit-rhum .description-rhum .tarif .ajout-panier:hover {
+  width: 15vw;
+  background-color: white;
+  color: #e55e2a;
+  height: 100%;
+  border-radius: 3px;
+  box-shadow: 1px 10px 6px #1b1b1b;
+}
+body .bloc1-produit-rhum .description-rhum div {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+}
+body .bloc1-produit-rhum .description-rhum div img {
+  width: 1vw;
+  height: 2vh;
+}
+body .bloc1-produit-rhum .description-rhum div .label4 {
+  width: 6vw;
+}
+body .bloc1-produit-rhum .article1-produit-rhum {
+  width: 29vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background: url(../image/texture_wood.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 2vh;
+  align-items: center;
+}
+body .bloc1-produit-rhum .article1-produit-rhum .text-article1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 80%;
+  height: 100%;
+}
+body .bloc1-produit-rhum .article1-produit-rhum .text-article1 h4 {
+  font-size: 2rem;
+  font-family: "unlock";
+  color: white;
+}
+body .bloc1-produit-rhum .article1-produit-rhum .text-article1 p {
+  line-height: 3.5vh;
+  font-family: "trirong";
+  font-size: 1rem;
+  color: white;
+}
+body .bloc1-produit-rhum .article1-produit-rhum .bloc-grosse-bouteille {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  height: 45vh;
+}
+body .bloc1-produit-rhum .article1-produit-rhum .bloc-grosse-bouteille .grosse-bouteille {
+  width: 20vw;
+}
+body .button1 {
+  width: 11vw;
+  height: 5vh;
+  background-color: #1b1a1a;
+  color: white;
+  border: transparent;
+  border-radius: 0.8vh;
+  font-family: "trirong";
+  font-size: 1.1rem;
+  transition-duration: 0.4s;
+}
+body .button1:hover {
+  width: 11.2vw;
+  height: 5.2vh;
+  background-color: white;
+  color: #1b1a1a;
+  border: transparent;
+  border-radius: 0.8vh;
+  font-family: "trirong";
+  font-size: 1.1rem;
+}
+body footer section {
+  width: 100vw;
+  height: 10vh;
+  justify-content: space-around;
+  align-items: center;
+  background-color: white;
+  display: flex;
+}
+body footer section #footer1 {
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+}
+body footer section #footer1 a {
+  color: black;
+  text-decoration: none;
+}
+body footer section #footer2 {
+  width: 20%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+body footer section #footer2 img {
+  width: 2vw;
+  height: 3.4vh;
+}/*# sourceMappingURL=style.css.map */

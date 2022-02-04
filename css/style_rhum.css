@@ -1,0 +1,62 @@
+main {
+  width: 100vw;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+main .article2-produit-rhum {
+  width: 60%;
+  height: 86vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+main .article2-produit-rhum .article3-produit-rhum {
+  background-image: url(../image/image_feuille.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 47.5%;
+  display: flex;
+  justify-content: space-around;
+  line-height: 6vh;
+  border-radius: 2vh;
+}
+main .article2-produit-rhum .article3-produit-rhum div {
+  margin: 3vw;
+}
+main .article2-produit-rhum .article3-produit-rhum div h4 {
+  font-family: "yujimai";
+  font-size: 2rem;
+  color: white;
+}
+main .article2-produit-rhum .article3-produit-rhum div p {
+  line-height: 4.5vh;
+  font-family: "trirong";
+  font-size: 1rem;
+  color: white;
+}
+main .article2-produit-rhum .article4-produit-rhum {
+  background-image: url(../image/texture_black.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 47.5%;
+  display: flex;
+  justify-content: space-around;
+  line-height: 6vh;
+  border-radius: 2vh;
+}
+main .article2-produit-rhum .article4-produit-rhum div {
+  margin: 3vw;
+}
+main .article2-produit-rhum .article4-produit-rhum div h4 {
+  font-family: "yujimai";
+  font-size: 2rem;
+  color: white;
+}
+main .article2-produit-rhum .article4-produit-rhum div p {
+  line-height: 4.5vh;
+  font-family: "trirong";
+  font-size: 1rem;
+  color: white;
+}/*# sourceMappingURL=style_rhum.css.map */

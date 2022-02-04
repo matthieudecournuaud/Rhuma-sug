@@ -1,0 +1,272 @@
+main {
+    width: 100vw;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    .bg {
+        height: 140vh;
+        justify-content: flex-start;
+        .bloc-bg-contact {
+            width: 60%;
+            height: 60%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 10vh;
+            position: relative;
+            .bg-contact {
+                width: 70%;
+                height: 100%;
+                background-color: rgba(226, 255, 231, 0.5);
+                border-radius: 10px;
+            }
+            .article-contact {
+                width: 100%;
+                height: 100%;
+                display: flex;
+                justify-content: space-evenly;
+                position: absolute;
+                align-items: center;
+                .bloc-text {
+                    display: flex;
+                    justify-content: space-evenly;
+                    width: 80%;
+                    height: 100%;
+                    .cadre-image {
+                        width: 30%;
+                        height: 100%;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-around;
+                        align-items: center;
+                        margin-right: 2vw;
+                        img {
+                            height: 20%;
+                        }
+                    }
+                    .cadre-div {
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        justify-content: space-around;
+                        width: 90%;
+                        .div1 {
+                            display: flex;
+                            justify-content: flex-start;
+                            align-items: center;
+                            width: 100%;
+                            height: 20%;
+                            font-family: 'roboto';
+                            font-size: 1.3rem;
+                            color: white;
+                            margin-left: 2vw;
+
+                        }
+                        .div2 {
+                            display: flex;
+                            justify-content: flex-start;
+                            align-items: center;
+                            width: 100%;
+                            height: 20%;
+                            font-family: 'roboto';
+                            font-size: 1.3rem;
+                            color: white;
+                            margin-left: 2vw;
+                        }
+                        .div3 {
+                            display: flex;
+                            justify-content: flex-start;
+                            align-items: center;
+                            width: 100%;
+                            height: 20%;
+                            font-family: 'roboto';
+                            font-size: 1.3rem;
+                            color: white;
+                            margin-left: 2vw;
+                        }
+                    }
+                }
+                .bg2 {
+                    width: 80%;
+                    height: 70%;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-evenly;
+                    background-color: rgb(162, 223, 182);
+                    border-radius: 10px;
+                    div:nth-child(1) {
+                        display: flex;
+                        justify-content: center;
+                        align-items: flex-end;
+                        width: 100%;
+                        height: 13vh;
+                        margin-top: 2vh;
+                        .bulle-blanche {
+                            width: 80px;
+                            height: 80px;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            background-color: white;
+                            border-radius: 40px;
+                            box-shadow: 0px 9px 20px rgba(0, 0, 0, 0.5);
+                            animation-name: bubble1;
+                            animation-duration: 7s;
+                            animation-iteration-count: infinite;
+                            position: relative;
+                            cursor: pointer;
+                        }
+                        @keyframes bubble1 {
+                            0% {
+                                bottom: 0px;
+                            }
+                            50% {
+                                bottom: 15px;   
+                            }
+                            100% {
+                                bottom: 0px;   
+                            }  
+                        }
+                        
+                    }
+                    div:nth-child(2) {
+                        display: flex;
+                        justify-content: space-around;
+                        width: 100%;
+                        align-items: center;
+                        height: 15vh;
+                        .bulle-blanche {
+                            width: 80px;
+                            height: 80px;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            background-color: white;
+                            border-radius: 40px;
+                            box-shadow: 0px 9px 20px rgba(0, 0, 0, 0.5);
+                            animation-name: bubble1;
+                            animation-duration: 7s;
+                            animation-iteration-count: infinite;
+                            animation-delay: 2.5s;
+                            position: relative;
+                            cursor: pointer;
+
+                        }
+                        @keyframes bubble1 {
+                            0% {
+                                bottom: 0px;
+                            }
+                            50% {
+                                bottom: 15px;   
+                            }
+                            100% {
+                                bottom: 0px;   
+                            }  
+                        }
+                        .bulle-blanche2 {
+                            width: 80px;
+                            height: 80px;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            background-color: white;
+                            border-radius: 40px;
+                            box-shadow: 0px 9px 20px rgba(0, 0, 0, 0.5);
+                            animation-name: bubble1;
+                            animation-duration: 7s;
+                            animation-iteration-count: infinite;
+                            animation-delay: 1.5s;
+                            position: relative;
+                            cursor: pointer;
+
+                        }
+                    }
+                        @keyframes bubble1 {
+                            0% {
+                                bottom: 0px;
+                            }
+                            50% {
+                                bottom: 15px;   
+                            }
+                            100% {
+                                bottom: 0px;   
+                            }  
+                        }
+                    div:nth-child(3) {
+                        display: flex;
+                        justify-content: space-evenly;
+                        width: 100%;
+                        align-items: center;
+                        height: 15vh;
+                        .bulle-blanche {
+                            width: 80px;
+                            height: 80px;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            background-color: white;
+                            border-radius: 40px;
+                            box-shadow: 0px 9px 20px rgba(0, 0, 0, 0.5);
+                            animation-name: bubble1;
+                            animation-duration: 7s;
+                            animation-iteration-count: infinite;
+                            animation-delay: 1s;
+                            position: relative;
+                            cursor: pointer;
+
+                        }
+                        @keyframes bubble1 {
+                            0% {
+                                bottom: 0px;
+                            }
+                            50% {
+                                bottom: 15px;   
+                            }
+                            100% {
+                                bottom: 0px;   
+                            }  
+                        }
+                        .bulle-blanche4 {
+                            width: 80px;
+                            height: 80px;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            background-color: white;
+                            border-radius: 40px;
+                            box-shadow: 0px 9px 20px rgba(0, 0, 0, 0.5);
+                            animation-name: bubble1;
+                            animation-duration: 7s;
+                            animation-iteration-count: infinite;
+                            animation-delay: 3.5s;
+                            position: relative;
+                            cursor: pointer;
+
+                        }
+                        @keyframes bubble1 {
+                            0% {
+                                bottom: 0px;
+                            }
+                            50% {
+                                bottom: 15px;   
+                            }
+                            100% {
+                                bottom: 0px;   
+                            }  
+                        }
+                    }
+                }
+            }
+        }
+        .div-bg {
+            width: 100%;
+            height: 35vh;
+            background-image: url(../image/pirate3.png);
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: 50% 50%;
+        }
+    }
+}

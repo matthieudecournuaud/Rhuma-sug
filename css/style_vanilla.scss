@@ -1,0 +1,60 @@
+main {
+    width: 100vw;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .bloc1-produit-rhum {
+        .bloc-image-crane {
+            justify-content: flex-end;
+            .image-crane {
+                width: 30vw;
+                height: 40vh;
+                background-image: url(../image/crane.png);
+                background-repeat: no-repeat;
+                background-size: contain;
+                display: flex;
+            } 
+        }
+        .article1-vanilla-rhum {
+            width: 29vw;
+            height: 85%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            background: url(../image/texture_black.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            border-radius: 2vh;
+            align-items: center;
+            .text-article1-vanilla {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-evenly;
+                width: 80%;
+                height: 25vh;
+                h4 {
+                    font-size: 2rem;
+                    font-family: 'yujimai';
+                    color: white;
+                }
+                p {
+                    line-height: 3.5vh;
+                    font-family: 'trirong';
+                    font-size: 1rem;
+                    color: white;
+                }
+            }
+            .bloc-image-vanilla {
+                display: flex;
+                justify-content: flex-end;
+                width: 100%;
+                height: 42vh;
+                .image-bouteille-petite {
+                    width: 17vw;
+                }
+                
+            }
+        }
+    }
+}

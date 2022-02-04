@@ -1,0 +1,57 @@
+main {
+  width: 100vw;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+main .bloc1-produit-rhum .bloc-image-crane {
+  justify-content: flex-end;
+}
+main .bloc1-produit-rhum .bloc-image-crane .image-crane {
+  width: 30vw;
+  height: 40vh;
+  background-image: url(../image/crane.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: flex;
+}
+main .bloc1-produit-rhum .article1-vanilla-rhum {
+  width: 29vw;
+  height: 85%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background: url(../image/texture_black.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 2vh;
+  align-items: center;
+}
+main .bloc1-produit-rhum .article1-vanilla-rhum .text-article1-vanilla {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 80%;
+  height: 25vh;
+}
+main .bloc1-produit-rhum .article1-vanilla-rhum .text-article1-vanilla h4 {
+  font-size: 2rem;
+  font-family: "yujimai";
+  color: white;
+}
+main .bloc1-produit-rhum .article1-vanilla-rhum .text-article1-vanilla p {
+  line-height: 3.5vh;
+  font-family: "trirong";
+  font-size: 1rem;
+  color: white;
+}
+main .bloc1-produit-rhum .article1-vanilla-rhum .bloc-image-vanilla {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  height: 42vh;
+}
+main .bloc1-produit-rhum .article1-vanilla-rhum .bloc-image-vanilla .image-bouteille-petite {
+  width: 17vw;
+}/*# sourceMappingURL=style_vanilla.css.map */

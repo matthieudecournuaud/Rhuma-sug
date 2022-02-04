@@ -1,0 +1,107 @@
+main {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+main .bg2 {
+  width: 90%;
+  background-color: #292727;
+  height: 190vh;
+}
+main #bloc1 {
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+}
+main #bloc1 #hero {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  margin-top: 8vh;
+}
+main #bloc1 #hero p {
+  color: white;
+  font-family: "roboto";
+  font-size: 1rem;
+  letter-spacing: 0.1rem;
+  line-height: 1.4rem;
+}
+main #bloc1 #img1 {
+  position: absolute;
+  width: 20vw;
+  margin-left: 8vw;
+  margin-top: 25vh;
+}
+main #bloc1 #img2 {
+  height: 60vh;
+  opacity: 30%;
+}
+main #bloc1 #hero-img {
+  justify-content: flex-end;
+  align-items: center;
+  height: 80vh;
+  display: flex;
+}
+main #button {
+  width: 3vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  left: 50%;
+  -webkit-animation: fleche 1.5s infinite;
+          animation: fleche 1.5s infinite;
+  cursor: pointer;
+}
+@-webkit-keyframes fleche {
+  0% {
+    bottom: 4vh;
+  }
+  50% {
+    bottom: 2vh;
+  }
+  100% {
+    bottom: 4vh;
+  }
+}
+@keyframes fleche {
+  0% {
+    bottom: 4vh;
+  }
+  50% {
+    bottom: 2vh;
+  }
+  100% {
+    bottom: 4vh;
+  }
+}
+main .wrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+}
+main .wrap #titrehero2 {
+  margin-left: 5vw;
+  margin-top: 7vh;
+}
+main .wrap article {
+  display: flex;
+  justify-content: space-around;
+}
+main .wrap article div {
+  width: 40%;
+}
+main .wrap article img {
+  width: 30vw;
+  height: 30vh;
+}
+main .wrap article p {
+  color: white;
+  font-family: "roboto";
+  font-size: 1rem;
+  letter-spacing: 0.1rem;
+  line-height: 1.4rem;
+}/*# sourceMappingURL=style_index.css.map */

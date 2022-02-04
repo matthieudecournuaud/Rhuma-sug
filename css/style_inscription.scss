@@ -1,0 +1,50 @@
+
+main {
+    width: 100vw;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .coordonnees2 {
+        padding-top: 5vh;
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        .form2 {
+            width: 32vw;
+            height: 70vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+            background-color: rgb(229, 94, 42);
+            text-align: center;
+            border-radius: 20px;
+            :first-child {
+                margin-top: 5vh;
+            }
+            :last-child {
+                margin-top: 5vh;
+            }
+            input {
+                height: 6vh;
+                border: 2px solid grey;
+                border-radius: 4px;
+                font-size: 14px;
+                text-align: center;
+                padding: 1vh 2vw;
+            }
+            input.button {
+                border-color: rgb(255, 255, 255);
+                color: rgb(255, 255, 255);
+                border-radius: 10px;
+                background-color: rgb(229, 94, 42);
+                padding: 0 7vh;
+                margin-top: 1vh;
+            }
+        }
+    }
+}
+

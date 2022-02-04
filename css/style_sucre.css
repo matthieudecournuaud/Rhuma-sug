@@ -1,0 +1,113 @@
+main {
+  width: 100vw;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+main .titre-produit-sucre h2 {
+  color: #EBC8B1;
+}
+main .section-produits-sucre {
+  width: 100%;
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+main .section-produits-sucre article {
+  display: flex;
+  justify-content: space-evenly;
+  width: 95%;
+  height: 35%;
+}
+main .section-produits-sucre article .illustration2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 50%;
+  height: 100%;
+}
+main .section-produits-sucre article .illustration2 h4 {
+  font-family: "yujimai";
+  font-size: 2rem;
+  color: white;
+  margin-bottom: 3vh;
+}
+main .section-produits-sucre article .illustration2 h4 .brun {
+  color: #EBC8B1;
+}
+main .section-produits-sucre article .illustration2 h4 .multi-color {
+  background: -webkit-linear-gradient(right, #46A693 30%, #EBC8B1 50%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+main .section-produits-sucre article .illustration2 p {
+  line-height: 4.5vh;
+  font-family: "trirong";
+  font-size: 1rem;
+  color: white;
+}
+main .section-produits-sucre .div-produit-sucre1 {
+  background-image: url(../image/sucre-cristal.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 40%;
+  display: flex;
+  justify-content: space-around;
+  line-height: 6vh;
+  border-radius: 2vh;
+}
+main .section-produits-sucre .div-produit-sucre1 form {
+  width: 32%;
+}
+main .section-produits-sucre .div-produit-sucre1 div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+main .section-produits-sucre .div-produit-sucre2 {
+  background-image: url(../image/texture-liquide.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 40%;
+  display: flex;
+  justify-content: space-around;
+  line-height: 6vh;
+  border-radius: 2vh;
+}
+main .section-produits-sucre .div-produit-sucre2 form {
+  width: 32%;
+}
+main .section-produits-sucre .div-produit-sucre2 div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+main .texte-sucre {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 89%;
+  height: 45vh;
+}
+main .texte-sucre h3 {
+  font-family: "trirong";
+  font-size: 2.5rem;
+  color: #88979a;
+  line-height: 6rem;
+}
+main .texte-sucre p {
+  line-height: 3.5vh;
+  font-family: "trirong";
+  font-size: 1rem;
+  color: white;
+}/*# sourceMappingURL=style_sucre.css.map */

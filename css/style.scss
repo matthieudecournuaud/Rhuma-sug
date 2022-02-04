@@ -1,0 +1,263 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: 'roboto';
+    src: url(../font/Roboto/Roboto-Regular.ttf);
+}
+@font-face {
+    font-family: 'trirong';
+    src: url(../font/Trirong/Trirong-Regular.ttf);
+}
+@font-face {
+    font-family: 'unlock';
+    src: url(../font/Unlock/Unlock-Regular.ttf);
+}
+@font-face {
+    font-family: 'yujimai';
+    src: url(../font/Yuji_Mai/YujiMai-Regular.ttf);
+}
+@font-face {
+    font-family: 'Mochiy_Pop_P_One';
+    src: url(../font/Mochiy_Pop_P_One/MochiyPopPOne-Regular.ttf);
+}
+h2 {
+    font-family: "roboto";
+    font-size: 3rem;
+    color: rgb(229, 94, 42);
+    letter-spacing: 0.4rem;
+}
+h1 {
+    font-family: 'trirong';
+    font-size: 4rem;
+    color:white;
+    font-weight: lighter;
+}
+h3 {
+    font-family: 'trirong';
+    font-size: 2.5rem;
+    color: rgb(136, 151, 154);
+    line-height: 6rem;
+}   
+label {
+    color: white;
+}
+.login-titre {
+    padding-top: 8vh;
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 10vw;
+}
+body {
+    background-color: rgb(27, 26, 26);
+    height: 100vh;
+    width: 100vh;
+    nav {
+        display: flex;
+        justify-content: space-around;
+        width: 100vw;
+        height: 15vh;
+        align-items: center;
+            #logo {
+                align-items: center;
+                img {
+                    height: calc(8500vh/1024);
+                }
+            }
+            ul {
+                height: 10vh;
+                width: 60vw;
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                li {
+                    list-style: none;
+                    a {
+                        text-decoration: none;
+                        color: rgb(211, 138, 0);
+                        font-family: "roboto";
+                        font-size: 1.5rem;   
+                    }
+                }
+            }
+            #logo-id {
+                display: flex;
+                flex-direction: column;
+                width: 6vw;
+                justify-content: center;
+                text-align: center;
+                a {
+                    text-decoration: none;
+                    color: white;
+                }
+            }
+    }
+    .bg {
+        width: 90%;
+        height: 140vh;
+        background-color: rgb(41, 39, 39);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+
+    }
+    .titre-produit-rhum {
+        display: flex;
+        align-items: baseline;
+        width: 80vw;
+        padding-top: 8vh;
+    }
+    .titre-produit-sucre {
+        display: flex;
+        align-items: baseline;
+        width: 80vw;
+        padding-top: 8vh;
+    }
+    .bloc1-produit-rhum {
+        width: 80vw;
+        display: flex;
+        justify-content: space-between;
+        margin: auto;
+        margin-top: 10vh;
+        .description-rhum {
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+            color: white;
+            font-family: 'roboto';
+            font-size: 1rem;
+            line-height: 4vh;
+            gap: 3vh;
+            .tarif {
+                font-family: 'roboto';
+                font-size: 2rem;
+                height: 8vh;
+                display: flex;
+                justify-content: space-around;
+                    .ajout-panier {
+                        width: 15vw;
+                        background-color: #e55e2a;
+                        color: white;
+                        border: none;
+                        height: 100%;
+                        border-radius: 3px;
+                        box-shadow: 1px 10px 6px rgb(27, 27, 27);
+                        transform: translateY(0);
+                        transition: all 0.2s ease;
+                    }
+                    .ajout-panier:hover {
+                        width: 15vw;
+                        background-color: white;
+                        color: #e55e2a;
+                        height: 100%;
+                        border-radius: 3px;
+                        box-shadow: 1px 10px 6px rgb(27, 27, 27);
+                    }
+            }
+            div {
+                display: flex;
+                justify-content: space-between;
+                color: white;
+                img {
+                    width: 1vw;
+                    height: 2vh;
+                }
+                .label4 {
+                    width: 6vw;
+                }
+            }
+        }
+        .article1-produit-rhum {
+            width: 29vw;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            background: url(../image/texture_wood.png);
+            background-size: cover;
+            background-repeat: no-repeat;
+            border-radius: 2vh;
+            align-items: center;
+            .text-article1 {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-evenly;
+                width: 80%;
+                height: 100%;
+                h4 {
+                    font-size: 2rem;
+                    font-family: 'unlock';
+                    color: white;
+                }
+                p {
+                    line-height: 3.5vh;
+                    font-family: 'trirong';
+                    font-size: 1rem;
+                    color: white;
+                }
+            }
+            .bloc-grosse-bouteille {
+                display: flex;
+                justify-content: flex-end;
+                width: 100%;
+                height: 45vh;
+                .grosse-bouteille {
+                    width: 20vw;
+                }
+            }
+        }
+    }
+    .button1 {
+        width: 11vw;
+        height: 5vh;
+        background-color: rgb(27, 26, 26);
+        color: white;
+        border: transparent;
+        border-radius: 0.8vh;
+        font-family: 'trirong';
+        font-size: 1.1rem;
+        transition-duration: 0.4s;
+    }
+    .button1:hover {
+        width: 11.2vw;
+        height: 5.2vh;
+        background-color: white;
+        color: rgb(27, 26, 26);
+        border: transparent;
+        border-radius: 0.8vh;
+        font-family: 'trirong';
+        font-size: 1.1rem;
+    }
+    footer section{
+        width: 100vw;
+        height: 10vh;
+        justify-content: space-around;
+        align-items: center;
+        background-color: white;
+        display: flex;
+        #footer1 {
+            width: 50%;
+            display: flex;
+            justify-content: space-around;
+            a {
+                color: black;
+                text-decoration: none;
+            }
+        }
+        #footer2 {
+            width: 20%;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            img {
+                width: 2vw;
+                height: 3.4vh;
+            }
+        }
+    }
+}
+//---------------------------------------------------- 1 -----------------------------------------------------------------//

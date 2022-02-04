@@ -1,0 +1,47 @@
+main {
+  width: 100vw;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+main .coordonnees2 {
+  padding-top: 5vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main .coordonnees2 .form2 {
+  width: 32vw;
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #e55e2a;
+  text-align: center;
+  border-radius: 20px;
+}
+main .coordonnees2 .form2 :first-child {
+  margin-top: 5vh;
+}
+main .coordonnees2 .form2 :last-child {
+  margin-top: 5vh;
+}
+main .coordonnees2 .form2 input {
+  height: 6vh;
+  border: 2px solid grey;
+  border-radius: 4px;
+  font-size: 14px;
+  text-align: center;
+  padding: 1vh 2vw;
+}
+main .coordonnees2 .form2 input.button {
+  border-color: white;
+  color: white;
+  border-radius: 10px;
+  background-color: #e55e2a;
+  padding: 0 7vh;
+  margin-top: 1vh;
+}/*# sourceMappingURL=style_inscription.css.map */

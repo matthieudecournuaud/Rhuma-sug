@@ -1,0 +1,79 @@
+.image-pirate-login {
+  width: 40vw;
+  height: 140vh;
+}
+
+.bg-login {
+  width: 90%;
+  height: 140vh;
+  background-color: #292727;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+main {
+  width: 100vw;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+main .structure-login {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+main .structure-login div {
+  display: flex;
+  justify-content: center;
+  width: 28vw;
+}
+main .structure-login div img {
+  height: 30vh;
+}
+main .coordonnees {
+  padding-top: 10vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+main .coordonnees div {
+  background-color: #e55e2a;
+  text-align: center;
+  border-radius: 20px;
+  width: 30%;
+}
+main .coordonnees input {
+  height: 6vh;
+  border: 2px solid grey;
+  border-radius: 4px;
+  font-size: 14px;
+  text-align: center;
+  padding: 1vh 2vw;
+}
+main .coordonnees input.button {
+  border-color: white;
+  color: white;
+  border-radius: 10px;
+  background-color: #e55e2a;
+  padding: 0 7vh;
+}
+main .coordonnees .identifiants {
+  text-align: center;
+  width: 100%;
+}
+main .coordonnees .form {
+  border-radius: 10px;
+  display: flex;
+  height: 50vh;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+}
+main .coordonnees .form a {
+  text-decoration: none;
+  color: white;
+}/*# sourceMappingURL=style_login.css.map */

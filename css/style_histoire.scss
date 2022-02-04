@@ -1,0 +1,141 @@
+
+main {
+    width: 100vw;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .bg {
+        height: 305vh;
+        justify-content: flex-start;
+        .section-1 {
+            width: 100%;
+            height: 80vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+            margin-top: 10vh;
+            .image-man {
+                width: 90%;
+                height: 100%;
+                background-image: url(../image/man.jpg);
+                background-size: contain;
+                background-repeat: no-repeat;
+                display: flex;
+                align-items: center;
+                justify-content: space-evenly;
+                div:not(.frise) {
+                    width: 40%;
+                    height: 60%;
+                    background-color: rgba(235,	200, 177, 0.7);
+                    display: flex;
+                    flex-direction: column;
+                    text-align: justify;
+                    position: absolute;
+                    justify-content: center;
+                    align-items: center;
+                    h3 {
+                        color: white;
+                        width: 80%;
+                        margin-bottom: 3vh;
+                    }
+                    p {
+                        width: 80%;
+                        font-size: 1rem;
+                        font-family: 'trirong';
+                        color: white;
+                    }
+                }
+            }
+        }
+        .section-2 {
+            width: 100%;
+            height: 80vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin-top: 10vh;
+            .town {
+                width: 90%;
+                height: 80%;
+                background-image: url(../image/town.jpg);
+                background-size: contain;
+                background-repeat: no-repeat;
+                background-position: right;
+                display: flex;
+                align-items: center;
+                justify-content: flex-start;
+                    div:not(.frise) {
+                        width: 40%;
+                        height: 50%;
+                        background-color: rgba(40, 91, 138, 0.7);
+                        display: flex;
+                        flex-direction: column;
+                        text-align: justify;
+                        position: absolute;
+                        left: 27%;
+                        justify-content: center;
+                        align-items: center;
+                    h3 {
+                        color: white;
+                        width: 80%;
+                        margin-bottom: 3vh;
+                    }
+                    p {
+                        width: 80%;
+                        font-size: 1rem;
+                        font-family: 'trirong';
+                        color: white;
+                    }
+                }
+            }
+        }
+        .section-3 {
+            width: 100%;
+            height: 80vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+            margin-top: 10vh;
+            .tree {
+                width: 90%;
+                height: 100%;
+                background-image: url(../image/tree.jpg);
+                background-size: contain;
+                background-repeat: no-repeat;
+                background-position: left;
+                display: flex;
+                align-items: center;
+                justify-content: flex-start;
+                div {
+                    width: 40%;
+                    height: 60%;
+                    background-color: rgba(177, 235, 206, 0.7);
+                    display: flex;
+                    flex-direction: column;
+                    text-align: justify;
+                    position: absolute;
+                    left: 50%;
+                    justify-content: center;
+                    align-items: center;
+                    h3 {
+                        color: white;
+                        width: 80%;
+                        margin-bottom: 3vh;
+                    }
+                    p {
+                        width: 80%;
+                        font-size: 1rem;
+                        font-family: 'trirong';
+                        color: white;
+                    }
+                }
+            }
+        }
+    }
+} 
+
+ 

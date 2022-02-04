@@ -1,0 +1,57 @@
+main {
+    width: 100vw;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .bloc1-produit-rhum {
+        .article1-marley-rhum {
+            width: 29vw;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            background: url(../image/image_feuille.png);
+            background-size: cover;
+            background-repeat: no-repeat;
+            border-radius: 2vh;
+            align-items: center;
+            .text-article1-marley {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-evenly;
+                width: 80%;
+                height: 20vh;
+                h4 {
+                    font-size: 2rem;
+                    font-family: 'yujimai';
+                    color: white;
+                }
+                p {
+                    line-height: 3.5vh;
+                    font-family: 'trirong';
+                    font-size: 1rem;
+                    color: white;
+                }
+            }
+            .image-feuille-dernier-enfant {
+                display: flex;
+                justify-content: flex-end;
+                width: 100%;
+                height: 42vh;
+                .image-bouteille-fine-marley {
+                    width: 20vw;
+                }
+            }
+        }
+    }
+    .description-rhum h3{
+        font-family: 'yujimai';
+    }
+    .image-plage {
+        width: 30vw;
+        height: 20vh;
+        background-image: url(../image/plage.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+}
